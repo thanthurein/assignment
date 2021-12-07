@@ -88,15 +88,18 @@ if(Test1 >= Test2){
  var result = _8 != _9
  console.log(result)
 
+ // var $1 နဲ့ $2 တို့ရဲ့ Data ကိုစစ်တာတဲ့အခါသုံး
 var $1 = 10
 var $2 = "25"
 console.log($1 == $2)
 
+// var $3 နဲ့ $4 တို့ ရဲ့ Data types နဲ့ Data ကိုစစ်တဲ့အခါသုံးတယ်
 var $3 = 10
 var $4 = "25"
 console.log ($3 === $4)
 // -------------------------------------
 // ==
+
  var test1 = 20
  var test2 = 40
  if( test1 == test2 ){
@@ -116,5 +119,14 @@ if(  test3 === test4){
      console.log("That answer is not correct")
  }
  
+
+ let now = 2007
+
+ if(2021 - now == 14 || 2021-now === 25)
+ {
+     console.log("true");
+ }else{
+     console.log("false");
+ }
  
  
